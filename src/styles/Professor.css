@@ -1,0 +1,17 @@
+.professor-page { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.page-header { margin-bottom: 3rem; }
+.page-header h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+.page-header p { color: #666; }
+.professor-section { display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; margin-bottom: 3rem; padding: 2rem; background: #f9f9f9; border-radius: 8px; }
+.professor-image { display: flex; justify-content: center; }
+.image-placeholder { width: 200px; height: 250px; background: #e0e0e0; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #999; }
+.professor-info h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.title { color: #c84444; font-weight: 600; margin-bottom: 0.5rem; }
+.contact { margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; }
+.bio-section h3, .details-grid h3 { margin-bottom: 1rem; }
+.bio-section p { color: #666; line-height: 1.7; margin-bottom: 2rem; }
+.details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.detail-column ul { list-style: none; }
+.detail-column li { margin-bottom: 1rem; color: #666; }
+.detail-column strong { color: #1a1a1a; }
+@media (max-width: 768px) { .professor-section { grid-template-columns: 1fr; } .details-grid { grid-template-columns: 1fr; } }

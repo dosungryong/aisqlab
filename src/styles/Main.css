@@ -1,0 +1,19 @@
+.main-page { width: 100%; }
+.hero-section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
+.hero-content { display: flex; gap: 4rem; align-items: center; }
+.hero-text { flex: 1; }
+.hero-label { color: #c84444; font-size: 0.875rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 1rem; }
+.hero-title { font-size: 3rem; font-weight: 700; line-height: 1.2; margin-bottom: 1.5rem; color: #1a1a1a; }
+.hero-description { font-size: 1rem; color: #666; line-height: 1.6; }
+.hero-image { flex: 1; }
+.hero-graphic { width: 100%; height: 300px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-radius: 12px; }
+.research-section { padding: 4rem 2rem; background-color: #f9f9f9; }
+.research-section h2 { text-align: center; font-size: 2rem; margin-bottom: 1rem; }
+.section-subtitle { text-align: center; color: #666; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+.research-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+.research-card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.research-card:hover { transform: translateY(-5px); }
+.research-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.research-card h3 { font-size: 1.25rem; margin-bottom: 0.5rem; color: #1a1a1a; }
+.research-card p { color: #666; line-height: 1.6; font-size: 0.95rem; }
+@media (max-width: 768px) { .hero-content { flex-direction: column; gap: 2rem; } .hero-title { font-size: 2rem; } }
